@@ -15,7 +15,7 @@ void setup(){
   pinMode(S1, OUTPUT); // define o pino denominado S1 como saída 
   pinMode(S2, OUTPUT); // define o pino denominado S2 como saída 
   pinMode(S3, OUTPUT); // define o pino denominado S3 como saída 
-  pinMode(OutSensor, INPUT); // define o pino denominado OutSensor como saída 
+  pinMode(OutSensor, INPUT); // define o pino denominado OutSensor como entrada
   Serial.begin(9600); // Inicia a comunicação serial
   digitalWrite(S0, HIGH); // configura a escala de frequência do sensor para 20%
   digitalWrite(S1, LOW); // configura a escala de frequência do sensor para 20%
